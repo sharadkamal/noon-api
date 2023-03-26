@@ -1,6 +1,6 @@
 # node-js-getting-started
 
-# view sample data used
+## view sample data used
 https://noon-api.vercel.app/noon-api/get-all
 
 
