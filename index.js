@@ -88,3 +88,4 @@ MongoClient.connect(url, { useUnifiedTopology: true })
   .catch((error) => console.log("error :>> ", error));
 
 app.listen(PORT, () => console.log(`Listning to the post ${PORT}`));
+module.exports = app;
