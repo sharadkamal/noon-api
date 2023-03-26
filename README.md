@@ -1,5 +1,9 @@
 # node-js-getting-started
 
+# view sample data used
+https://noon-api.vercel.app/noon-api/get-all
+
+
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
 ## Running Locally
