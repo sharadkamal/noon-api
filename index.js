@@ -32,7 +32,7 @@ app
   .use(express.static(path.join(__dirname, "public")))
   .set("views", path.join(__dirname, "views"))
   .set("view engine", "ejs")
-  .get("/", (req, res) => res.render("pages/index"));
+  .get("/", (req, res) => res.send("Noon-API"));
 
 MongoClient.connect(url, { useUnifiedTopology: true })
   .then((client) => {
